@@ -11,7 +11,7 @@ function print(text) {
  */
 function isValid(name) {
   // ваш код...
-  return !name.includes(' ') && name.length >= 4 && name !== null;
+  return name !== null && name.length >= 4 && !name.includes(' ');
 }
 
 function sayHello() {
