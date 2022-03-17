@@ -6,4 +6,4 @@ function factorial(n) {
   }
   return factorial;
 }
-factorial()
+

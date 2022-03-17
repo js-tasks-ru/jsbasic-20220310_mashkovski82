@@ -8,4 +8,3 @@ let strNew = str.toUpperCase()
   return false
 }
 }
-checkSpam();
