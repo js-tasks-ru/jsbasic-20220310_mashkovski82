@@ -1,3 +1,9 @@
 function truncate(str, maxlength) {
-  // ваш код...
+  let strNew;
+  if(str.length > maxlength) {
+  strNew = str.slice(0, maxlength - 1) + '\u2026';
+ return strNew; 
+  } else {
+  return str;
+  }
 }
