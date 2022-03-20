@@ -17,5 +17,5 @@ describe('2-module-3-task', () => {
   it('должно корректно складывать числа с 0 вторым аргументом', () => {
     calculator.read(1, 0);
     expect(calculator.sum()).toBe(1);
-  });
-});
+  }); 
+}); 
